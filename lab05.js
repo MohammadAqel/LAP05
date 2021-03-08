@@ -1,15 +1,15 @@
-let ls=prompt("chose your leisures(cars or animals)");
+let ls=prompt("chose your leisures(BMW or Marcedes)");
 
-while (ls != "cars" && ls != "animals"){
-ls=prompt("chose your leisures(cars or animals)");
+while (ls != "BMW" && ls != "Marcedes"){
+ls=prompt("chose your leisures(cars or Marcedes)");
 }
 
 
 let res='';
-if(ls=="cars"){
-    res = '<img style="width:200px;height:300px" src="Mercedes.jpg" alt="car">'
+if(ls=="BMW"){
+    res = '<img style="width:200px;height:300px" src="BMW.jpg" alt="BMW">'
 } else{
-    res = '<img style="width:200px;height:300px" src="kitten-440379.jpg" alt="cat">'
+    res = '<img style="width:200px;height:300px" src="Mercedes.jpg" alt="Marcedes">'
 }
 
 

@@ -1,5 +1,7 @@
 let ls=prompt("chose your leisures(BMW or Marcedes)");
 
+
+// new changes 
 while (ls != "BMW" && ls != "Marcedes"){
 ls=prompt("chose your leisures(cars or Marcedes)");
 }
